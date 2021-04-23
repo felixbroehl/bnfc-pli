@@ -6,4 +6,4 @@
 3. Run this command `curl -s -L  https://raw.githubusercontent.com/felixbroehl/bnfc-pli/main/setup.sh | bash`
 
 ## Run on linux
-After every restart or the first installation run the following script: `./run.sh`
+After every restart or the first installation run the following script: `source ./run.sh`
