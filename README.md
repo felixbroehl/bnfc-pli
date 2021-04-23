@@ -15,4 +15,4 @@ After every restart or the first installation run the following script: `source 
 4. Run this command `. ([Scriptblock]::Create((([System.Text.Encoding]::ASCII).getString((Invoke-WebRequest -Uri "https://raw.githubusercontent.com/felixbroehl/bnfc-pli/main/setup.ps1").Content))))`
 
 ## Run on windows
-After every restart or the first installation run the following script: `source ./run.sh`
+After every restart or the first installation run the following script: `.\run.ps1`
