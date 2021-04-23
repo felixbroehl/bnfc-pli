@@ -1,5 +1,5 @@
 mkdir workdir
-wget https://raw.githubusercontent.com/felixbroehl/bnfc-pli/main/Dockerfile -P .
-wget https://raw.githubusercontent.com/felixbroehl/bnfc-pli/main/run.sh -P .
+curl https://raw.githubusercontent.com/felixbroehl/bnfc-pli/main/Dockerfile --output Dockerfile
+curl https://raw.githubusercontent.com/felixbroehl/bnfc-pli/main/run.sh --output run.sh
 chmod +x run.sh
 docker build -t richard/bnfc .
