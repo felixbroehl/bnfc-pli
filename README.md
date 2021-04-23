@@ -16,4 +16,5 @@ After every restart or the first installation run the following script: `source 
 
 ## Run on windows
 After every restart or the first installation run the following script: `.\run.ps1`
+
 Troubleshouting: If you're experiencing the `PSSecurityException` error please copy the content of the file and executing the command from your clipboard.
