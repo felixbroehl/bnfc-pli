@@ -12,7 +12,7 @@ After every restart or the first installation run the following script: `source 
 1. Install Docker first (skip if you already have installed Docker)
 2. Open power shell
 3. Navigate to the folder you like the installation to be placed in. (with cd command)
-4. Run this command `. ([Scriptblock]::Create((([System.Text.Encoding]::ASCII).getString((Invoke-WebRequest -Uri "https://raw.githubusercontent.com/felixbroehl/bnfc-pli/main/setup.ps1").Content))))`
+4. Run this command `iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/felixbroehl/bnfc-pli/main/setup.ps1'))`
 
 ## Run on windows
 After every restart or the first installation run the following script: `.\run.ps1`
